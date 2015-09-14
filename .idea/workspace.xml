@@ -2,67 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ec7f4a-74e4-4767-8a3a-e3a6bcaa8692" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/danielviveiros/api/CommonResource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/danielviveiros/config/CommonModule.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/danielviveiros/config/GuiceServletConfig$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/danielviveiros/config/GuiceServletConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/danielviveiros/dao/GreetingDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/danielviveiros/dao/ObjectifyGreetingDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/danielviveiros/dao/OfyService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/danielviveiros/entity/Greeting.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/danielviveiros/resources/GuestbookServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/danielviveiros/resources/SignGuestbookServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/appengine-web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/appengine-api-1.0-sdk-1.9.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/appengine-api-1.0-sdk-1.9.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/asm-3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/bfgex-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/commons-lang-2.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/commons-math-2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/fixture-factory-2.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/gae-project-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/google-http-client-1.15.0-rc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/google-http-client-jackson2-1.15.0-rc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/guava-14.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/guice-3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/guice-servlet-3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/httpclient-4.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/httpcore-4.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/jackson-jaxrs-base-2.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/jackson-jaxrs-json-provider-2.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/jackson-module-jaxb-annotations-2.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/javax.inject-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/jchronic-0.2.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/jersey-core-1.17.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/jersey-guice-1.17.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/jersey-server-1.17.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/jersey-servlet-1.17.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/jsr305-1.3.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.14.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/mirror-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/objectify-4.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/paranamer-2.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/lib/xpp3-1.1.4c.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/logging.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/guestbook.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gae-project-1.0.0-SNAPSHOT/stylesheets/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.danielviveiros.dao.GreetingDAOTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.danielviveiros.dao.GreetingDAOTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/danielviveiros/dao/GreetingDAOTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/danielviveiros/test/AbstractTestClass.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -90,8 +29,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.016447369">
-              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.049342107">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -304,7 +243,7 @@
       <created>1442269434919</created>
       <option name="number" value="Default" />
       <updated>1442269434919</updated>
-      <workItem from="1442269436576" duration="293000" />
+      <workItem from="1442269436576" duration="316000" />
     </task>
     <task id="LOCAL-00001" summary=".gitignore">
       <created>1442269714774</created>
@@ -312,11 +251,17 @@
       <option name="project" value="LOCAL" />
       <updated>1442269714774</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Removendo target">
+      <created>1442269790539</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1442269790539</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="293000" />
+    <option name="totallyTimeSpent" value="316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1847" y="199" width="1539" height="1032" extended-state="6" />
@@ -352,8 +297,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value=".gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value=".gitignore" />
+    <MESSAGE value="Removendo target" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removendo target" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -362,8 +309,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.016447369">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.049342107">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
