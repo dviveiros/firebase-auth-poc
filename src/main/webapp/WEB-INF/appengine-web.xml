@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+    <application>s10-viveiros</application>
+    <version>gae-project</version>
+    <threadsafe>true</threadsafe>
+
+    <system-properties>
+        <property name="java.util.logging.config.file" value="WEB-INF/logging.properties"/>
+    </system-properties>
+    
+    <sessions-enabled>true</sessions-enabled>
+    <async-session-persistence enabled="true" />
+    
+    <admin-console>
+		<page name="Appstats" url="/appstats" />
+	</admin-console>
+</appengine-web-app>
