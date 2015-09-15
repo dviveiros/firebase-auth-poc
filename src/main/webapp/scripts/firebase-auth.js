@@ -5,23 +5,27 @@ var rootRef = new Firebase("https://sc-core-dev.firebaseio.com/");
  * On document load
  */
 $(function() {
+    console.log("Initializing application");
     rootRef.onAuth(authDataCallback);
+    console.log("Application ready!");
 });
 
 /**
  * Handles authentication
  */
 function authDataCallback(authData) {
+    console.log( "authDataCallback called");
     if (!authData) {
-        console.log(authData);
+        console.log( "authData is undefined");
         rootRef.authWithOAuthRedirect("google", function (error) {
             console.log("Login Failed!", error);
         },{
             remember: "default",
-            scope: "email, https://www.googleapis.com/auth/plus.login, https://www.googleapis.com/auth/drive"
+            scope: "email, https://www.googleapis.com/auth/drive"
         });
     }
     else {
+        console.log( "authData is defined!");
         console.log("Authenticated successfully with payload:", authData);
         if (authData) {
             provider = authData.provider;
