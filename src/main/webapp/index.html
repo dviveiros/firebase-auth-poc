@@ -1,27 +1,71 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<!-- The HTML 4.01 Transitional DOCTYPE declaration-->
-<!-- above set at the top of the file will set     -->
-<!-- the browser's rendering engine into           -->
-<!-- "Quirks Mode". Replacing this declaration     -->
-<!-- with a "Standards Mode" doctype is supported, -->
-<!-- but may lead to some differences in layout.   -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 
-<html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Hello App Engine</title>
-  </head>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:500,300' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
 
-  <body>
-    <h1>Hello App Engine!</h1>
-	
-    <table>
-      <tr>
-        <td colspan="2" style="font-weight:bold;">Available Servlets:</td>        
-      </tr>
-      <tr>
-        <td><a href="guestbook">Guestbook</a></td>
-      </tr>
-    </table>
-  </body>
+    <!-- Firebase -->
+    <script src='https://cdn.firebase.com/js/client/2.2.7/firebase.js'></script>
+    <!-- JQuery -->
+    <script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+
+    <!-- Firebase Authentication -->
+    <script src='scripts/firebase-auth.js'></script>
+
+    <style>
+        body {
+            background: url(img/background.jpg) black;
+            margin: 0;
+        }
+
+        h1 {
+            background-image: linear-gradient(to top, transparent, rgba(0, 0, 0, .5));
+            color: white;
+            font: 14px 'Raleway', sans-serif;
+            height: 56px;
+            line-height: 56px;
+            margin: 0;
+            padding: 0 0 0 12px;
+        }
+
+        h1 img {
+            height: 32px;
+            margin: 12px 8px 0 0;
+            float: left;
+        }
+
+        p {
+            color: white;
+            font: 48px 'Raleway', sans-serif;
+            font-weight: 300;
+            height: 300px;
+            line-height: 300px;
+            text-align: center;
+        }
+
+        .credentials {
+            color: white;
+            font: 48px 'Raleway', sans-serif;
+            font-weight: 300;
+            height: 300px;
+            line-height: 300px;
+            text-align: center;
+        }
+    </style>
+
+    <title>Smart Canvas - Coming soon...</title>
+</head>
+
+<body>
+<h1><img src="img/symbol.png"/>Smart Canvas</h1>
+
+<p>Smart Canvas is coming soon...</p>
+<div id="credentials"></div>
+<a href="javascript:logout()">Logout</a>
+
+
+</body>
 </html>
