@@ -17,7 +17,7 @@ function authDataCallback(authData) {
     console.log( "authDataCallback called");
     if (!authData) {
         console.log( "authData is undefined");
-        rootRef.authWithOAuthRedirect("google", function (error) {
+        rootRef.authWithOAuthPopup("google", function (error) {
             console.log("Login Failed!", error);
         },{
             remember: "default",
